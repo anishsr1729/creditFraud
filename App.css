@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: white;
+
+  #home {
+    height: 100vh; /* Set the height to the full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    position: relative;
+  }
+  
+  #aboutus {
+    position: relative; /* Position the AboutUs component absolutely */
+    top: 10vh; /* Position the AboutUs component 100vh below the top of the viewport */
+    left: 0; /* Position the AboutUs component at the left edge of the viewport */
+    width: 100%; /* Set the width of the AboutUs component to the full viewport width */
+    height: 80vh; /* Set the height of the AboutUs component to the full viewport height */
+    overflow-y: manual; /* Enable vertical scrolling */
+    
+  }
+  
+  #contactus {
+    position: relative; /* Position the ContactUs component absolutely */
+    top: 30vh; /* Position the ContactUs component 100vh below the top of the viewport */
+    left: 0; /* Position the ContactUs component at the left edge of the viewport */
+    width: 100%; /* Set the width of the ContactUs component to the full viewport width */
+    height: 10vh; /* Set the height of the ContactUs component to the full viewport height */
+    overflow-y: manual; /* Enable vertical scrolling */
+  }
+}
+
+.content {
+  min-height: calc(100vh - 95px);
+}
+
+.App-footer {
+  position: absolute; /* Position the footer absolutely */
+  top: 100vh;
+  bottom: 0; /* Position the footer at the bottom of the viewport */
+  left: 0; /* Position the footer at the left edge of the viewport */
+  width: 100%; /* Set the width of the footer to the full viewport width */
+  background-color: #333; /* Set the background color of the footer */
+  color: #fff; /* Set the text color of the footer */
+  padding: 1rem; /* Add padding to the footer */
+  text-align: center; /* Align the footer text to the center */
+}
